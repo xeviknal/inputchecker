@@ -2,8 +2,8 @@
 require File.expand_path('../lib/inputchecker/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Roger Campos"]
-  gem.email         = ["roger@itnig.net"]
+  gem.authors       = ["Xavier Canal i Masjuan"]
+  gem.email         = ["xavi@itnig.net"]
   gem.description   = %q{TODO: Write a gem description}
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
