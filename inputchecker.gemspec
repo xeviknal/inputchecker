@@ -4,9 +4,9 @@ require File.expand_path('../lib/inputchecker/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Xavier Canal i Masjuan"]
   gem.email         = ["xavi@itnig.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "Input checker add lots of new validation over the inputs such a phone, money, email, ip, postal, url, ..."
+  gem.summary       = "Input checker add lots of new validation over the inputs"
+  gem.homepage      = "http://github.com/xeviknal/inputchecker"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
