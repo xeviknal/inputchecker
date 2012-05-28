@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Inputchecker::VERSION
 
-  gem.add_development_dependency "rspec", "~> 2.6"
+  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "rake"
 end
