@@ -31,5 +31,10 @@ describe Inputchecker do
       subject.testfield = "xavi@itnig.net"
       subject.should be_valid
     end
+
+    it "should allow value with + character in local part" do
+      subject.testfield = "xavi+xtra@itnig.net"
+      subject.should be_valid
+    end
   end
 end
