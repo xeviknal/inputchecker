@@ -1,6 +1,6 @@
-# Inputchecker
+# InputChecker
 
-TODO: Write a gem description
+It adds to ActiveRecord new validations kinds.
 
 ## Installation
 
